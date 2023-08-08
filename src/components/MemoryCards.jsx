@@ -9,7 +9,7 @@ const MemoryCards = (props) => {
     return (
       <div className = "MemoryCard" onClick = {props.pickCard}>
         <div className={flip}>
-            <div className= "MemoryCardBack"><img src="https://www.digitalcrafts.com/media/Default/assets/logos/dc-logo.svg">
+            <div className= "MemoryCardBack"><img src="">
         </img></div>
             <div className= "MemoryCardFront">{props.symbol}</div>
             </div>
